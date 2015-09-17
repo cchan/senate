@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Lexington High School Senate</title>
+<link rel="stylesheet" href="SenateHome.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+
+<body onLoad="MM_preloadImages('pics/current2.png','pics/const2.png','pics/bills2.png','pics/committees2.png','pics/history2.png','pics/elections2.png','pics/faqs2.png','pics/commserv2.png')">
+
+ <div id="container">
+	   <div id="header">
+	  
+	    <h1> <a href="http://lhstoday.lexingtonma.org/index.php"><img src="pics/LHS.png" /></a></h1>
+		<h2><a href="http://lhs.lexingtonma.org/senate/"><img src="pics/Senate.png" /></a></h2>
+	
+	   </div>
+	  <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><a href="CurrentSenators.htm" target="_top" onClick="MM_nbGroup('down','group1','current1','pics/current2.png',1)" onMouseOver="MM_nbGroup('over','current1','pics/current2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/current1.png" alt="" name="current1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Constitution.htm" target="_top" onClick="MM_nbGroup('down','group1','const1','pics/const2.png',1)" onMouseOver="MM_nbGroup('over','const1','pics/const2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/const1.png" alt="" name="const1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Bills.htm" target="_top" onClick="MM_nbGroup('down','group1','bills1','pics/bills2.png',1)" onMouseOver="MM_nbGroup('over','bills1','pics/bills2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/bills1.png" alt="" name="bills1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Committees.htm" target="_top" onClick="MM_nbGroup('down','group1','committees1','pics/committees2.png',1)" onMouseOver="MM_nbGroup('over','committees1','pics/committees2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/committees1.png" alt="" name="committees1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="history.htm" target="_top" onClick="MM_nbGroup('down','group1','history1','pics/history2.png',1)" onMouseOver="MM_nbGroup('over','history1','pics/history2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/history1.png" alt="" name="history1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Elections.htm" target="_top" onClick="MM_nbGroup('down','group1','elections1','pics/elections2.png',1)" onMouseOver="MM_nbGroup('over','elections1','pics/elections2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/elections1.png" alt="" name="elections1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="faqs.htm" target="_top" onClick="MM_nbGroup('down','group1','faqs1','pics/faqs2.png',1)" onMouseOver="MM_nbGroup('over','faqs1','pics/faqs2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/faqs1.png" alt="" name="faqs1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="http://lhs.lexingtonma.org/comserv.shtml" target="_top" onClick="MM_nbGroup('down','group1','commserv1','pics/commserv2.png',1)" onMouseOver="MM_nbGroup('over','commserv1','pics/commserv2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/commserv1.png" alt="" name="commserv1" width="131" height="57" border="0" onload=""></a></td>
+      </tr>
+    </table>
+
+
+</head>
+
+<body>
+<P><CENTER><FONT SIZE="+2" COLOR="#000066"><b>Community Service
+Information</b></FONT></P></CENTER>
+
+
+
+<P><B><big style="font-family: helvetica,arial,sans-serif;"><big><big>The
+Community Service Requirement </big></big></big><BR>
+</B><small><small style="font-family: helvetica,arial,sans-serif;"><big> </big>&nbsp; </small></small><BR>
+<BR>
+<div style="text-align: justify;">Each student at Lexington High School is required to complete a minimum 
+			of 40 hours of community service during their high school career (transfer 
+			students must perform 10 hours per year of attendance at LHS) in order 
+			to graduate. Students must complete 20 hours of community service to 
+			be eligible for open campus. Juniors entering the year in September 
+			must have 20 hours of community service documented and seniors entering 
+			the year in September must have 30 hours documented. Students may begin 
+			accruing hours beginning the summer prior to ninth grade. The yearly 
+			community service requirement may be satisfied by participation in either 
+			a single activity or a combination of approved activities.<BR>
+<BR>
+</div> <big style="font-family: helvetica,arial,sans-serif;"><big
+ style="font-weight: bold;"> Definition of Community Service</big></big><BR>
+<div style="text-align: justify;">Community Service is defined as an act or activity performed by an individual without compensation or academic credit, whose 
+time and effort will benefit/aid a person or group of people and is without direct religious or political involvement.<BR> A community service activity must conform to the following guidelines:<BR>
+</P>
+
+<UL>
+   <LI>It must be performed without compensation to the student.
+   Examples: Court-ordered community service will not be accepted.
+   Paid work will not be accepted. Work receiving academic credit
+   will not be accepted.</LI>
+   <LI>It must benefit at least one person other than the student or the student's relative(s).</LI>
+   <LI>It must not be associated with the practice, promotion or ceremonies of any religion. 
+   It must not be associated with religious services, education, proselytizing, or fund-raising. 
+   A non-religious activity performed through a religious community, but which does not benefit the religious community directly,
+    may still be considered.</LI>
+   <LI>Political campaigning or work benefiting political organizations or causes directly cannot be accepted. </LI>
+   
+</UL>
+
+
+<P><big style="font-family: helvetica,arial,sans-serif;"><big
+ style="font-weight: bold;">Process for Earning Community Service
+Credit</big></big><BR>
+</div> <big><span style="font-weight: bold;"> </span></big> <div style="text-align: justify;">Credit
+must be earned according to the following guidelines.<BR>
+</P>
+
+<UL>
+   <LI>The service must meet the prior definition.</LI>
+   
+   <LI>The service may not be used to earn credit for more than one
+   program or organization.&nbsp; For example, Peer Tutors may earn
+   community service credit toward LHS or NHS requirements, but not
+   both; students who volunteer in school offices may receive either
+   personnel service credit or community service credit, but not
+   both. <BR>
+   </LI>
+   
+   <LI>The service can be performed for an approved organization or
+   if in doubt, the service must be approved beforehand by submitting a completed Pre-approval form prior to the service.&nbsp; <A HREF="http://lhs.lexingtonma.org/senate"><BR>
+   </A></LI>
+   
+   <LI>The service and hours must be verifiable with the service contact person.</LI>
+   <LI>The service must be reported within 90 days of completion of posted submission deadline.</LI>
+   
+   <LI>Completed and legible <A HREF="/PDF/CS_form_11_08.pdf">Community
+   Service Forms</A> must be placed in the community Service bin in the Library Media Center Rm. #151.&nbsp; Incomplete or late forms may delay the processing
+   of your hours.<BR>
+   </LI>
+</UL>
+
+<P><big style="font-family: helvetica,arial,sans-serif;"><big><span
+ style="font-weight: bold;">Approved Service Opportunities<BR>
+</span></big></big>The Community Service Secretary
+maintains a list of <A HREF="/PDF/cs_opps.pdf">Approved Service
+Opportunities</A>.&nbsp;&nbsp; The list is also posted on the Community Service bulletin board in the Guidance Department of the Arts and Humanities building.
+Please refer to this list if you are
+having difficulty finding an opportunity to serve or if you are unsure if an organization has been previously approved.&nbsp;<BR>
+<BR>
+<big style="font-weight: bold; font-family: helvetica,arial,sans-serif;"><big>Download
+Forms<BR>
+</big></big><big style="font-family: helvetica,arial,sans-serif;"><big><small><small><small><BR>
+</small></small></small></big></big></P>
+
+<CENTER><TABLE BORDER=1 CELLSPACING=1 style="width: 90%; text-align: left;"><tbody>
+   <TR>
+      <td style="background: #FFFFCC; padding: .75pt .75pt .75pt .75pt" valign="top">
+						<p align="center" style="text-align: center">
+						<a href="/PDF/CS_form_10.pdf">Community Service Form</a></p>
+						</td>
+						<td colspan="2" style="background: #FFFFCC; padding: .75pt .75pt .75pt .75pt" valign="top">
+						<p align="center" style="text-align: center">
+						<a href="/PDF/CS_Pre-Approval_08.pdf">Pre-Approval Form</a> 
+						(for students and sponsors)</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="background: #CCCCCC; padding: .75pt .75pt .75pt .75pt" valign="top">
+						<p>The form submitted to Mrs. Swanson, Rm.# 151Library, 
+						for credit at LHS. </p>
+						</td>
+						<td style="background: #CCCCCC; padding: .75pt .75pt .75pt .75pt" valign="top">
+						<p>The form students should submit if they are uncertain 
+						whether or not an activity will be accepted for credit.
+						</p>
+						</td>
+						<td style="background: #CCCCCC; padding: .75pt .75pt .75pt .75pt" valign="top">
+						<p>The form outside non-profit organizations should submit 
+						if they would like to be able to offer students Community 
+						Service for credit at LHS. </p>
+      </TD>
+   </TR></tbody>
+</TABLE>
+</CENTER>
+
+<P><BR>
+<big style="font-weight: bold; font-family: helvetica,arial,sans-serif;"><big>Questions
+Regarding Community Service</big></big><BR>
+Please contact Ms. Swanson at: 781-861-2320 X1519 or email&nbsp; <A HREF="mailto:lswanson@sch.ci.lexington.ma.us">Ms. Swanson</A><BR>All completed forms should be dropped
+off in the community sesrvice box in the library within 90 days of posted submission deadline.
+<BR>
+<BR>
+</div></P>
+
+
+
+</body>
+</html>

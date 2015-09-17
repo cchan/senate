@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Lexington High School Senate</title>
+
+  
+  
+  <link rel="stylesheet" href="SenateHome.css" type="text/css">
+
+  
+  <script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+  </script>
+</head><body onload="MM_preloadImages('pics/current2.png','pics/const2.png','pics/bills2.png','pics/committees2.png','pics/history2.png','pics/elections2.png','pics/faqs2.png','pics/commserv2.png')">
+<div id="container">
+<div id="header">
+<h1> <a href="http://lhs.lexingtonma.org/"><img src="pics/LHS.png"></a></h1>
+<h2><a href="http://lhs.lexingtonma.org/senate/"><img src="pics/Senate.png"></a></h2>
+</div>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><a href="CurrentSenators.htm" target="_top" onclick="MM_nbGroup('down','group1','current1','pics/current2.png',1)" onmouseover="MM_nbGroup('over','current1','pics/current2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/current1.png" alt="" name="current1" onload="" border="0" height="57" width="131"></a></td>
+      <td><a href="Constitution.htm" target="_top" onclick="MM_nbGroup('down','group1','const1','pics/const2.png',1)" onmouseover="MM_nbGroup('over','const1','pics/const2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/const1.png" alt="" name="const1" onload="" border="0" height="57" width="131"></a></td>
+      <td><a href="Bills.htm" target="_top" onclick="MM_nbGroup('down','group1','bills1','pics/bills2.png',1)" onmouseover="MM_nbGroup('over','bills1','pics/bills2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/bills1.png" alt="" name="bills1" onload="" border="0" height="57" width="131"></a></td>
+      <td><a href="Committees.htm" target="_top" onclick="MM_nbGroup('down','group1','committees1','pics/committees2.png',1)" onmouseover="MM_nbGroup('over','committees1','pics/committees2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/committees1.png" alt="" name="committees1" onload="" border="0" height="57" width="131"></a></td>
+      <td><a href="history.htm" target="_top" onclick="MM_nbGroup('down','group1','history1','pics/history2.png',1)" onmouseover="MM_nbGroup('over','history1','pics/history2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/history1.png" alt="" name="history1" onload="" border="0" height="57" width="131"></a></td>
+      <td><a href="Elections.htm" target="_top" onclick="MM_nbGroup('down','group1','elections1','pics/elections2.png',1)" onmouseover="MM_nbGroup('over','elections1','pics/elections2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/elections1.png" alt="" name="elections1" onload="" border="0" height="57" width="131"></a></td>
+      <td><a href="faqs.htm" target="_top" onclick="MM_nbGroup('down','group1','faqs1','pics/faqs2.png',1)" onmouseover="MM_nbGroup('over','faqs1','pics/faqs2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/faqs1.png" alt="" name="faqs1" onload="" border="0" height="57" width="131"></a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<div id="content">
+<div id="minutes">
+
+<p><font color="#000066">LEXINGTON HIGH SCHOOL STUDENT/FACULTY SENATE<br>
+Ryan Lee, Moderator; Laura Sheppard-Brick, Assistant Moderator; Andrew
+Wang, Secretary.</font></p>
+
+<font color="#000066">Senate meets after school on Wednesdays in the
+Library Media Center.
+<br>
+<br><br style="color: rgb(0, 0, 102);">
+</font><span style="color: rgb(0, 0, 102);">Minutes of meetings:</span><br>
+<br>
+<a href="https://drive.google.com/folderview?id=0B9DOnw-e2VBrflZZdlAwWFZoa2lIc2ljWEtFakMwSG5icGExZzVWWEVsaThCUFVVdGYzNVE&amp;usp=sharing">2015-2016
+Senate Minutes</a><br>
+<br>
+<a href="https://docs.google.com/document/d/1tecU5uBd5qIUtYtZKSAvNJCIIE5cKALUAL4fgra2H_U/edit?usp=sharing">2014-2015
+Senate Minutes</a><br><br>
+<p><font color="#000066"><br>
+</font> </p>
+</div>
+<div id="content">
+<div id="news"> <h11></h11><big><span style="text-decoration: underline;"><br>
+<span style="color: rgb(0, 0, 102);">Current topics under
+discussion</span></span><span style="color: rgb(0, 0, 102);">:</span><br style="color: rgb(0, 0, 102);"><span style="color: rgb(0, 0, 102);">
+Unwind to boost your mind.</span><br style="color: rgb(0, 0, 102);"><span style="color: rgb(0, 0, 102);">
+Attendance Policy</span><br>
+</big>
+<br>
+<font color="#000066"><br>
+</font></div>
+<font color="#000066"> </font> </div>
+</div>
+</div>
+
+<p><br>
+<font size="+1">
+<table bgcolor="#000066" border="0" cellpadding="5" cellspacing="5">
+  <tbody>
+    <tr>
+      <td>
+      <p><font color="#cccc99">© Re-Designed 2009 by Jacquelyn
+O'Connor. All rights reserved. This page is maintained by members of
+the Oversight Committee of the Lexington (Massachusetts) High School
+Senate. Please address comments or questions to </font><a href="mailto:jimwilliams@sch.ci.lexington.ma.us"><font color="#cccc99">Jim
+Williams.</font></a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</font></p>
+
+</body></html>

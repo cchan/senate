@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>Lexington High School Senate</title>
+
+<link rel="stylesheet" href="SenateHome.css" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script></head><body onload="MM_preloadImages('pics/current2.png','pics/const2.png','pics/bills2.png','pics/committees2.png','pics/history2.png','pics/elections2.png','pics/faqs2.png','pics/commserv2.png')">
+
+ <div id="container">
+	   <div id="header">
+	  
+	    <h1> <a href="http://lhstoday.lexingtonma.org/index.php"><img src="pics/LHS.png"></a></h1>
+		<h2><a href="http://lhs.lexingtonma.org/senate/"><img src="pics/Senate.png"></a></h2>
+	
+	   </div>
+	  <table border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td><a href="CurrentSenators.htm" target="_top" onclick="MM_nbGroup('down','group1','current1','pics/current2.png',1)" onmouseover="MM_nbGroup('over','current1','pics/current2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/current1.png" alt="" name="current1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="Constitution.htm" target="_top" onclick="MM_nbGroup('down','group1','const1','pics/const2.png',1)" onmouseover="MM_nbGroup('over','const1','pics/const2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/const1.png" alt="" name="const1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="Bills.htm" target="_top" onclick="MM_nbGroup('down','group1','bills1','pics/bills2.png',1)" onmouseover="MM_nbGroup('over','bills1','pics/bills2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/bills1.png" alt="" name="bills1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="Committees.htm" target="_top" onclick="MM_nbGroup('down','group1','committees1','pics/committees2.png',1)" onmouseover="MM_nbGroup('over','committees1','pics/committees2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/committees1.png" alt="" name="committees1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="history.htm" target="_top" onclick="MM_nbGroup('down','group1','history1','pics/history2.png',1)" onmouseover="MM_nbGroup('over','history1','pics/history2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/history1.png" alt="" name="history1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="Elections.htm" target="_top" onclick="MM_nbGroup('down','group1','elections1','pics/elections2.png',1)" onmouseover="MM_nbGroup('over','elections1','pics/elections2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/elections1.png" alt="" name="elections1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="faqs.htm" target="_top" onclick="MM_nbGroup('down','group1','faqs1','pics/faqs2.png',1)" onmouseover="MM_nbGroup('over','faqs1','pics/faqs2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/faqs1.png" alt="" name="faqs1" onload="" border="0" height="57" width="131"></a></td>
+        <td><a href="http://lhs.lexingtonma.org/comserv.shtml" target="_top" onclick="MM_nbGroup('down','group1','commserv1','pics/commserv2.png',1)" onmouseover="MM_nbGroup('over','commserv1','pics/commserv2.png','',1)" onmouseout="MM_nbGroup('out')"><img src="pics/commserv1.png" alt="" name="commserv1" onload="" border="0" height="57" width="131"></a></td>
+      </tr>
+    </tbody></table>
+
+
+<span style="font-weight: bold;">Information on Student Elections (</span>updated 9/14)<br>
+<br>
+Most offices are voted on in the spring.&nbsp; Freshmen positions are
+voted on in the fall.&nbsp; Students must complete nomination papers to
+become a candidate for any elected student office. <br>
+<br>
+<span style="font-weight: bold;">Nomination Procedure</span><br>
+1)&nbsp;&nbsp; &nbsp;Pick up nomination papers at the designated location.<br>
+2)&nbsp;&nbsp; &nbsp;Obtain the requisite number of signatures (50) from your classmates.<br>
+3)&nbsp;&nbsp;&nbsp; Submit the papers by the due date.<br>
+4)&nbsp;&nbsp; &nbsp;The earlier you turn in your nomination papers, the higher on the ballot your name will appear.<br>
+<br>
+<span style="font-weight: bold;">Campaign Statements</span><br>
+Candidates for all offices except Class Council must post a campaign
+statement saying why you are running for office on the designated
+bulletin board in Commons I.&nbsp; This must be on a single 8½&#8221; x 11&#8221;
+sheet of paper.<br>
+<br>
+<span style="font-weight: bold;">Running for Multiple Offices</span><br>
+You may run for more than one office.&nbsp; However, you must submit
+separate nomination papers for each office, with the exception of the
+combination of Class Office/Class Council.&nbsp; You may not hold more
+than one office.&nbsp; If you are elected to multiple positions, you
+must resign all but one.&nbsp; This allows for greater participation
+and diversity of officeholders.<br>
+Publicity and Posters<br>
+All campaign signs and posters must be initialed by a faculty Senate
+member.&nbsp; Please get the original signed before making
+copies!&nbsp; Campaign posters may not be hung before the designated
+date.<br>
+<br>
+<span style="font-weight: bold;">Campaign Ethics</span><br>
+&#8226;&nbsp;&nbsp; &nbsp;Total campaign expenditures may not exceed $25.00,
+including, but not limited to, printing expenses for campaign posters
+and items to give away to potential voters.&nbsp; The actual retail
+value of any items provided to the candidate for free or at a
+significant discount will also count toward the $25.00 cap.<br>
+&#8226;&nbsp;&nbsp; &nbsp;In accordance with school rules, candidates may not
+distribute food items, including candy, to potential voters.<br>
+&#8226;&nbsp;&nbsp; &nbsp;Candidates are permitted to distribute small items
+to potential voters, so long as the following conditions are met:<br>
+o&nbsp;&nbsp; &nbsp;The spending and food restrictions are followed.<br>
+o&nbsp;&nbsp; &nbsp;The items are evenly distributed without any
+understanding that accepting the item constitutes an obligation to vote
+for that candidate.<br>
+&#8226;&nbsp;&nbsp; &nbsp;All candidates will be required to sign on their
+nomination form that they are aware of and agree to abide by these
+rules.<br>
+<br>
+<span style="font-weight: bold;">Voting</span><br>
+Voting takes place in homerooms. You must have a No. 2 pencil to vote as we use Scantron ballots.<br>
+<br>
+<span style="font-weight: bold;">Elected Positions<br>
+<br>
+</span>School Government<br>
+Lexington High School Student/Faculty Senate: The Senate determines
+policies and rules for the school, as determined by the Lexington High
+School Constitution. It is made up of teachers and students who meet
+together during X Block. Each class elects approximately ten senators
+(the number of senators varies with the total school enrollment each
+year according to the rules in the LHS Senate Constitution).&nbsp;
+Please be aware that the Senate has a strict attendance policy, so
+please only run if you can commit to attending Senate meetings.<br>
+<br>
+Board of Appeals: The Board of Appeals consists of four students (one
+from each grade) and two faculty members, all elected for a one-year
+term. The purpose of the Board of Appeals is to address student and
+teacher grievances. The Board of Appeals also handles Community Service
+appeals.<br>
+<br>
+School Council Representative: One rising sophomore and one rising
+junior are elected to serve a one-year and two-year term, respectively,
+to the LHS School Council.&nbsp; The Council consists of parent,
+faculty, student, and community representatives and serves as an
+advisory committee to the administration and is responsible for
+creating the annual School Improvement Plan.<br>
+<br>
+School Committee Representative: One student is elected at large to
+serve as a non-voting student delegate to the Lexington School
+Committee.&nbsp; The School Committee is responsible for policy issues
+at the district level and with the school budget process.<br>
+Class Representation<br>
+<br>
+Class Officers: Your class will elect students to the following class offices:<br>
+&nbsp;&nbsp; &nbsp;President<br>
+&nbsp;&nbsp; &nbsp;Vice President<br>
+&nbsp;&nbsp; &nbsp;Secretary<br>
+&nbsp;&nbsp; &nbsp;Treasurer<br>
+These officers are responsible for running the Class Council.<br>
+<br>
+Class Council:&nbsp; This group, made up of 16 members of your class,
+helps raise money to fund activities, plan class activities such as
+Semi, Cruise, and Prom, and improve school spirit.&nbsp; Each class
+council also has at least one faculty advisor.<br>
+<br>
+
+</div></body></html>

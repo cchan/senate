@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Lexington High School Senate</title>
+</head>
+
+<link rel="stylesheet" href="SenateHome.css" type="text/css">
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+
+<body onLoad="MM_preloadImages('pics/current2.png','pics/const2.png','pics/bills2.png','pics/committees2.png','pics/history2.png','pics/elections2.png','pics/faqs2.png','pics/commserv2.png')">
+
+ <div id="container">
+	   <div id="header">
+	  
+	    <h1> <a href="http://lhstoday.lexingtonma.org/index.php"><img src="pics/LHS.png" /></a></h1>
+		<h2><a href="http://lhs.lexingtonma.org/senate/"><img src="pics/Senate.png" /></a></h2>
+	
+	   </div>
+	  <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><a href="CurrentSenators.htm" target="_top" onClick="MM_nbGroup('down','group1','current1','pics/current2.png',1)" onMouseOver="MM_nbGroup('over','current1','pics/current2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/current1.png" alt="" name="current1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Constitution.htm" target="_top" onClick="MM_nbGroup('down','group1','const1','pics/const2.png',1)" onMouseOver="MM_nbGroup('over','const1','pics/const2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/const1.png" alt="" name="const1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Bills.htm" target="_top" onClick="MM_nbGroup('down','group1','bills1','pics/bills2.png',1)" onMouseOver="MM_nbGroup('over','bills1','pics/bills2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/bills1.png" alt="" name="bills1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Committees.htm" target="_top" onClick="MM_nbGroup('down','group1','committees1','pics/committees2.png',1)" onMouseOver="MM_nbGroup('over','committees1','pics/committees2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/committees1.png" alt="" name="committees1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="history.htm" target="_top" onClick="MM_nbGroup('down','group1','history1','pics/history2.png',1)" onMouseOver="MM_nbGroup('over','history1','pics/history2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/history1.png" alt="" name="history1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="Elections.htm" target="_top" onClick="MM_nbGroup('down','group1','elections1','pics/elections2.png',1)" onMouseOver="MM_nbGroup('over','elections1','pics/elections2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/elections1.png" alt="" name="elections1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="faqs.htm" target="_top" onClick="MM_nbGroup('down','group1','faqs1','pics/faqs2.png',1)" onMouseOver="MM_nbGroup('over','faqs1','pics/faqs2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/faqs1.png" alt="" name="faqs1" width="131" height="57" border="0" onload=""></a></td>
+        <td><a href="comserv.htm" target="_top" onClick="MM_nbGroup('down','group1','commserv1','pics/commserv2.png',1)" onMouseOver="MM_nbGroup('over','commserv1','pics/commserv2.png','',1)" onMouseOut="MM_nbGroup('out')"><img src="pics/commserv1.png" alt="" name="commserv1" width="131" height="57" border="0" onload=""></a></td>
+      </tr>
+    </table>
+
+
+</head>
+
+<P><CENTER><b><FONT SIZE="+3" COLOR="#000066">2009 End of Year Report</b></FONT></P></CENTER>
+
+
+<body>
+
+
+
+
+
+Annual Report 2009 <br>
+Moderator Emily Sillary – Secretary Noah Karr Kaitan –Assistant Moderator Normile<br>
+
+
+<br>•	At the beginning of the year the executive committee requested that all committee chairmen submit their proposed objectives indicating the goals of their committee.  The committee chairs then attended a meeting with the executive committee to discuss their objectives.
+
+<br>•	In mid September two bills were proposed and discussed in Senate.  Neither bill came to a vote.
+
+<br>A Bill Permitting Benign Pranks
+
+<br>Section 1. Definitions.
+
+<br>A prank is a “benign prank” if:
+<br>(a) it has a humorous or ironic intent
+<br>(b) its makers notified the school administration prior to the beginning of the first school day during which it is visible
+<br>(c) it does not damage to school property
+(d) it is not threatening or harassing toward any member of the school
+(e) its makers will remove it within a reasonable amount of time
+
+Section 2. Benign pranks shall be permitted at Lexington High School.
+
+
+A Bill Relative to Senior Finals
+
+Finals shall be given to seniors at the discretion of the teacher of the section.
+
+
+•	In mid October, Senate passed A Resolution Opposing Question 1.  Question 1 would eliminate the state income tax.
+
+A Resolution Opposing Question 1:
+
+WHEREAS, Ballot Question 1 will have a devastating impact on the budget of the Commonwealth of Massachusetts by eliminating the state income tax,
+
+WHEREAS, the commonwealth of Massachusetts gives local aid to the Town of Lexington, and those payments could be reduced by an estimated 65%,
+
+WHEREAS, the cuts would affect programs of the town that LHS students use,
+
+WHEREAS, the Town of Lexington will face cuts in many areas of severe importance,
+
+WHEREAS, Lexington Public Schools could see cuts of up to 89% of aid,
+
+RESOLVED that the student members of the Lexington High School Student-Faculty Senate urge the voters of the Commonwealth of Massachusetts to Vote NO on Question 1.
+
+Be it further resolved that the Senate communicate its opinion to the Minuteman.
+
+
+•	In late October the Social Action committee created a new Community Service form to be used by students to record and submit their community service hours at Lexington High School.
+
+•	In early December this Resolution was brought before the Senate.  A motion was passed to delegate the sports fee discussion and investigation to an Ad Hoc Committee.
+
+A Resolution for Equal Treatment of Sports Teams
+
+WHEREAS, there is an unequal financial treatment of sports teams,
+
+WHEREAS, every participant pays the same amount of money,
+
+WHEREAS, the only regulation is that girls and boys teams for the same sport get the same amount of money,
+
+Let it be resolved that the amount of money given to each sports team is based solely on the number of participants for that sport or differ the payments based on what sport you choose to play.
+
+Motion:
+I move that the Moderator appoint an ad hoc committee, to serve at her pleasure, for the purpose of investigation the equity of athletic user fees and any other matters pertaining thereto, such committee to be made up of interested Senators, and to report back to her by the end of February, 2009.
+
+
+•	In mid January the Senate passed the Transcript Bill which removes the number of community services hours that a student has completed from the student’s transcript. Principal Cohen signed the bill.
+
+
+Transcript Bill
+
+On student transcripts the number of hours of community service completed will no longer be recorded.  Instead transcripts will read "Community Service graduation requirement completed:  yes/no" indicating whether the student has completed the required hours of community service.
+
+Rationale
+
+1.  The community service requirement states a minimum number of hours of service.  The school has no basis for evaluating whether more hours represent better or more socially useful service.  Students should not be encouraged to add more and more hours to their transcripts simply because the transcript records these hours.
+
+2.  Students who perform the minimal number of hours should not be made to look inferior to those who have performed more than the minimum hours, yet admission officers may draw this conclusion in comparing students from this high school.
+
+3.  Students who feel that their service is extraordinary can tell this to admissions officers in their application process.
+
+
+•	In mid February, the Senate organized the School Committee Candidates’ Night.  The three candidates for school committee attended the event and responded to questions posed by a panel of students as well as by members of the audience.
+
+•	In early March the Senate voted to approve an assembly to discuss an upcoming protest by a group coming to the school.  
+
+•	In late March the Senate Passed the Fair Notice Bill.  Principal Cohen vetoed the bill.
+
+Fair Notice Bill
+
+Amend the Detention Procedures regarding teacher detentions, which read in the 2008-2009 LHS Handbook as
+
+“When a teacher detention is warranted, the teacher will meet with the student to assign the detention.  Failure of a student to report to the teacher detention will result in a referral to the Dean for Further disciplinary action.”
+
+To read
+
+“When a teacher detention is warranted, the teacher will meet with the student to assign the detention, giving at least one day’s notice if necessary.  Failure of a student to report to the teacher detention will result in a referral to the Dean for further disciplinary action.”
+
+
+Rationale.
+Many teachers feel that detentions served on the same day as a student’s infraction are a more valuable lesson than detentions put off by students, yet students have other obligations and transportation can be an issue at the last minute.
+
+Same day detentions are not prohibited, but students should be accorded the same courtesy regarding teacher detentions that they are accorded by the Deans for administrative detentions.
+
+
+•	In mid April the Ad-hoc committee published their report on User Fees.
+
+•	In late April the Senate hosted a forum with Assistant Principal Lasa, Dean Lautman, Dean DeFeudis, Dean Caliri, and Librarian Wallen to discuss a solution to the situation in the library.  
+
+•	In early May the Senate passed the Library Passes Bill changing the bill from 2008 so that students must return to their study halls at the end of the block.  Principal Cohen signed the bill.
+
+
+
+Improved Library Passes Bill
+
+	Sophomore and second semester Freshman students who have a valid pass to attend the Library during a study hall may proceed directly to the library at the beginning of the block. Prior to the end of the block students must bring their stamped pass to the study hall teacher.
+	A student who fails to arrive at the library within eight minutes of the beginning of the block will have his or her pass voided and will be sent to study hall.  Students arriving at a study hall for this reason have eight more minutes to get there with the voided pass after which they will be considered tardy or absent.  Likewise a student who is sent back to study hall for being disruptive will have eight minutes to return to study.
+Library passes must clearly state the use that a student intends to make of the library.  However, space permitting, well-behaved students may use the library for individual or collaborative study and browsing and are not necessarily required to be actively using library resources.  
+This bill will take effect at the beginning of the 2009-2010 school year.  The Senate Climate Committee will review the success of the bill after one quarter.
+
+Rationale:
+This modifies the Library Passes Bill of 2008 to alleviate problems with it.
+1.  Freshmen should get to know their study hall teachers and the rules of the school before having the privilege afforded by this bill.  Note that first semester Freshmen may use the library but have to report to study hall first.
+2.  Returning passes to the secretaries has created too much work for them.  They may choose occasionally accept a pass returned to them but this should be the exception rather than the rule.
+3.  Students should arrive at the library in a timely way.  Giving them three additional minutes eliminates excuses.
+4. The original intent of the bill is to be maintained, that serious students should have greater ease of access to the library.  Ideas for more stringent control of library use have been put forward, namely that students must have a pass from a subject area teacher for whom they are completing work or that students must get a pass from a librarian on the day of the study hall or on the previous day after school. The Senate would like to see how the above bill works before considering implementing either of these.
+
+
+•	In mid May the Social Action Committee held a community service fair.  Approximately twenty organizations sent representatives to Lexington High School to inform the students of volunteer opportunities.  
+
+•	In late May the Senate voted to accept the User Fee report of the Ad-Hoc Committee and release the report to the public, including the school committee from whom the Senate expects a response.  
+
+"Resolved that the Senate accept the report of the Ad Hoc Committee on User Fees, that it release the report to the public, including through the Musket, PTSA newsletter, Senate web site and faculty announcements, that it send the report to the School Committee and request a response."
+
+</body>
+</html>
